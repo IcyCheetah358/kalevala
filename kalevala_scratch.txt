@@ -1,0 +1,19 @@
+INFO:tensorflow:Restoring parameters from /content/tensorlog/shakespeare/shakespeare.ckpt-20000
+
+
+!ls /content/tensorlog/shakespeare -la
+
+
+! tar -cf tensorlog.tar tensorlog
+
+
+
+from google.colab import files
+
+#with open('tensorlog.tar', 'r') as f:
+#  print("Hello")
+  #f.write('some content')
+
+files.download('tersorlog.tar')
+
+
